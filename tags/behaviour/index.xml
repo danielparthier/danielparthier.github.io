@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>behaviour on codex</title>
+    <link>https://example.org/tags/behaviour/</link>
+    <description>Recent content in behaviour on codex</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Wed, 27 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/behaviour/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BehaviouR Package</title>
+      <link>https://example.org/posts/2021-10-27-behaviour-package/</link>
+      <pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/posts/2021-10-27-behaviour-package/</guid>
+      <description>--  -- A while ago I worked on a package which can be used to explore and modify data collected with DeepLabCut (Mathis et al. 2018). Since then some changes occurred and will need to be addressed. One of the updates includes a completely new version of DeepLabcut which is exciting.1
+FileName &amp;lt;- &amp;#39;/data/DLC_output.csv&amp;#39; FrameRate &amp;lt;- 25/3 ObjectNumber &amp;lt;- 2 test &amp;lt;- 1 Like this we will get the data from the directory and load it with the BehaviouR library.</description>
+    </item>
+    
+  </channel>
+</rss>

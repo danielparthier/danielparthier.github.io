@@ -1,1 +1,0 @@
-# danielparthier.github.io
