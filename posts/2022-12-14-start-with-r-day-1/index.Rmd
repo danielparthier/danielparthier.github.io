@@ -1,0 +1,24 @@
+---
+title: "Start With R - Day 1"
+author: "Daniel Parthier"
+date: "2022-12-14"
+slug: []
+bibliography: citation.bib
+link-citations: yes
+categories:
+- R
+- development
+tags:
+- installation
+- setup
+- R
+- rstudio
+- plotting
+- ggplot2
+- data.table
+description: How to get started with R - Day 1
+keywords: R
+---
+
+knitr::include_url('https://danielparthier.github.io/slides/startwithrday1#1')
+

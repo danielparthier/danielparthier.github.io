@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Installing R and RStudio | codex</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="How to get started with R">
+  <meta name="keywords" content="R">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Installing R and RStudio" />
+  <meta name="twitter:description" content="How to get started with R"/>
+  <meta name="twitter:site" content="https://twitter.com/DParthier" />
+  <meta name="twitter:creator" content="https://twitter.com/DParthier" />
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/post.min.a1cac78f49968c8a9fcc0cf4e5c1cb0a37aceb29c0fe823e05b30c56b398fa78.css" integrity="sha256-ocrHj0mWjIqfzAz05cHLCjes6ynA/oI&#43;BbMMVrOY&#43;ng="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.4ca62555ac1d42f7c02687bb187ad5e8cff4abb34c5ab679816df81907502b7d.css" integrity="sha256-TKYlVawdQvfAJoe7GHrV6M/0q7NMWrZ5gW34GQdQK30="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    { 
+      "@context": "http://schema.org", 
+      "@type": "WebSite", 
+      "url": "https:\/\/example.org\/posts\/2022-12-05-install-r\/",
+      "name": "Installing R and RStudio",
+      "author": {
+        "@type": "Person",
+        "name": ""
+      },
+      "description": "How to get started with R"
+    }
+  
+  </script>
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/">about</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+         href="/posts">posts</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">Installing R and RStudio</h1>
+            <time datetime="2022-12-05 00:00:00 &#43;0000 UTC" class="post__date">Dec 12 2022</time> 
+          </header>
+          <article class="post__content">
+              
+
+
+
+<!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> -->
+<!-- <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script> -->
+<div id="installing-steps" class="section level1">
+<h1>Installing steps</h1>
+<p>The first steps to get started with <span style="color: #276dc3ff"><strong><em>R</em></strong></span> is installing it on your computer.
+Depending on the version of your OS (<em>Windows/Linux/MacOS</em>) you are required to download the right <span style="color: #276dc3ff"><strong><em>R</em></strong></span> version.</p>
+<ol style="list-style-type: decimal">
+<li><p>Download the necessary installation files from the <a href="https://cran.r-project.org/">R-project</a>.
+<img src="images/Rinstall.png" width="400" /> This website will not only allow you to download <span style="color: #276dc3ff"><strong><em>R</em></strong></span> but also provide some additional help in case something should go wrong (which it shouldn’t so don’t worry!).
+As a Mac-user you should probably check whether you have an M1 processor or an Intel processor and download the appropriate installation file.</p></li>
+<li><p>Install <span style="color: #276dc3ff"><strong><em>R</em></strong></span>!
+Once the download is finished you can simply install it as explained under the “download link”.
+Depending on your OS it might look differently.<br />
+</p>
+<p><em>Windows</em>: click .exe installer<br />
+<em>Linux</em>: install via console<br />
+<em>MacOS</em>: run the .pkg file using the installer - double click</p></li>
+<li><p>In principle you are done with the minimal requirements.
+You can check if everything works by running <span style="color: #276dc3ff"><strong><em>R</em></strong></span>.
+Depending on your OS this might look different.<br />
+</p>
+<p><em>Windows</em>: you will go through the menu and execute <span style="color: #276dc3ff"><strong><em>R</em></strong></span>.
+A bright window will open with a console.<br />
+</p>
+<p><em>Mac</em>: start as any other app.<br />
+</p>
+<p><em>Linux</em>: just enter “R” in the terminal.</p></li>
+</ol>
+<p>Once you see the <span style="color: #276dc3ff"><strong><em>R</em></strong></span>-console you know it works.</p>
+<p><img src="images/console.png" right="50%" width="400" /></p>
+<p>Having installed <span style="color: #276dc3ff"><strong><em>R</em></strong></span> we want to use a graphical user interface to have a better time working with it.
+Also this will allow us to use many more features which might be otherwise more difficult to achieve.
+So for convenience’s sake and to get a modern interface we want to install the <span style="color: #75aadbff"><strong><em>R</em></strong></span><strong><em>Studio</em></strong> IDE.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Go to <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a> and scroll down to see all different available versions. Download the version required by your OS. Again depending on your OS installation might vary:<br />
+<em>Windows</em>: Install by start installation by double clicking the .exe file.<br />
+<em>Linux</em>: Go to the package directory in the terminal and run <code>sudo dpkg -i rstudio_version_name.deb</code>.<br />
+<em>MacOS</em>: Just drop the .dmg to your application folder. Done!</li>
+</ol>
+<p><span style="color: #75aadbff"><strong><em>R</em></strong></span><strong><em>Studio</em></strong> is THE IDE for <span style="color: #276dc3ff"><strong><em>R</em></strong></span> and will make your life a lot easier.
+Further, it is possible to integrate also <em>Python</em> and code from other languages (<em>SQL</em>, <em>C++</em>, <em>D3</em>, <em>Stan</em>).
+It is provided by a public-benefit corporation (PBC) which was formerly known as <em>RStudio</em> but now is called <em>Posit</em> since they offer a large variety of other products besides <span style="color: #75aadbff"><strong><em>R</em></strong></span><strong><em>Studio</em></strong>.
+Using the software for our purposes is 100% free!</p>
+<ol start="5" style="list-style-type: decimal">
+<li><p>You should now be able to see the IDE window.
+<img src="images/rstudio.png" right="50%" width="600" /></p></li>
+<li><p>Check that you have a working internet connection which does not block the download of <span style="color: #276dc3ff"><strong><em>R</em></strong></span> <code>packages</code></p></li>
+</ol>
+<p><strong>Finally</strong>: To be completely prepared for the workshop you can install <span style="color: #276dc3ff"><strong><em>R</em></strong></span>-libraries.
+These are small toolboxes which allow you to perform specific tasks.
+Whether you need a library depends on what you want to do and if someone already solved your issue for you (made a library public).</p>
+<pre class="r"><code>install.packages(&quot;ggplot2&quot;, &quot;data.table&quot;, &quot;readxl&quot;, &quot;patchwork&quot;, &quot;ggbeeswarm&quot;, &quot;lme4&quot;)</code></pre>
+<p>This command will install 6 libraries which we will use next time.
+There I will also explain how to find new libraries and how to install them with <span style="color: #75aadbff"><strong><em>R</em></strong></span><strong><em>Studio</em></strong>.</p>
+<p>Side note: If you are able to have access to our computing server you will also be able to enjoy <span style="color: #75aadbff"><strong><em>R</em></strong></span><strong><em>Studio</em></strong> in the browser <u>on the server</u>.
+This means you can keep all your data on the server and work without copying or running a software through an additional window.</p>
+<p><img src="images/RStudio_BCCN.png" width="600" /></p>
+</div>
+
+
+              
+                  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://example.org/tags/installation/">installation</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://example.org/tags/setup/">setup</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://example.org/tags/r/">R</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://example.org/tags/rstudio/">rstudio</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+
+  
+    <a class="pagination__item" href="https://example.org/posts/2022-12-14-start-with-r-day-1/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >Start With R - Day 1</span>
+    </a>
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="Twitter"
+        href="https://twitter.com/DParthier"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://example.org/svg/twitter.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="GitHub"
+        href="https://github.com/danielparthier"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://example.org/svg/github.svg')"></div>
+      </a>
+    
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="ORCID"
+        href="https://orcid.org/0000-0001-8775-024X"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://example.org/svg/orcid.svg')"></div>
+      </a>
+    
+     
+</div>
+
+            <p>© 2022</p>
+          </footer>
+          </div>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/js/index.min.575dda8d49ee02639942c63564273e6da972ab531dda26a08800bdcb477cbd7f.js" integrity="sha256-V13ajUnuAmOZQsY1ZCc&#43;balyq1Md2iagiAC9y0d8vX8=" crossorigin="anonymous"></script>
+   
+</body>
+
+</html>

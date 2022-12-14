@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>installation on codex</title>
+    <link>https://example.org/tags/installation/</link>
+    <description>Recent content in installation on codex</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/installation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing R and RStudio</title>
+      <link>https://example.org/posts/2022-12-05-install-r/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/posts/2022-12-05-install-r/</guid>
+      <description>--  -- Installing steps The first steps to get started with R is installing it on your computer. Depending on the version of your OS (Windows/Linux/MacOS) you are required to download the right R version.
+Download the necessary installation files from the R-project. This website will not only allow you to download R but also provide some additional help in case something should go wrong (which it shouldn’t so don’t worry!</description>
+    </item>
+    
+  </channel>
+</rss>
